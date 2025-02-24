@@ -6,3 +6,10 @@ cd "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools"
 # making the project folder
 mkdir "local-llm-project"  
 cd "local-llm-project"
+
+# creating new environment
+python -m venv venv
+.\venv\Scripts\Activate
+
+# installing environment
+pip install llama-cpp-python
