@@ -1,6 +1,8 @@
 <<<<<<< HEAD
-PS C:\Users\shahp\Documents\Coding\localbot> cd "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools"
-mkdir "local-llm-project"  
-=======
+# making th directory
 
->>>>>>> 677301fc9a32f0ec3f98b77bb1aaa8cdde8341a2
+cd "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools"
+
+# making the project folder
+mkdir "local-llm-project"  
+cd "local-llm-project"
