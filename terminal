@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# making th directory
+# making the directory
 
-cd "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools"
+cd "C:\Users\shahp\Documents\Coding"
 
 # making the project folder
 mkdir "local-llm-project"  
@@ -12,4 +12,14 @@ python -m venv venv
 .\venv\Scripts\Activate
 
 # installing environment
-pip install llama-cpp-python
+winget install Ollama.Ollama
+
+# pulling a light weight model
+ollama pull mistral
+
+# This will allow us to process PDFs, text files, and other documents for querying.
+pip install llama-index llama-index-llms-ollama 
+pip install llama-index-embeddings-ollama
+pip install llama-index-embeddings-openai
+pip install llama-index-core
+pip install llama-index-embeddings-huggingface
